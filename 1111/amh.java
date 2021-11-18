@@ -4,8 +4,8 @@ public class amh {
     public static void main(String[] args) {
         Scanner scanner = new Scanner (System.in);
 
-        String code = scanner.nextLine();       // 코드 종류 입력
-        String find = scanner.nextLine();       // 찾을 패턴 입력
+        String code = scanner.next();       // 코드 종류 입력
+        String find = scanner.next();       // 찾을 패턴 입력
         String[] c = code.split("");            // 입력된 코드를 배열에 넣기
         String[] f = find.split("");            // 입력된 패턴을 배열에 넣기
 
